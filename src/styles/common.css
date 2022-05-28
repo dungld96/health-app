@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "Altdin";
+  src: local("Altdin"), url(../assets/fonts/din1451alt.ttf) format("ttf");
+}
+@font-face {
+  font-family: "AltdinG";
+  src: local("AltdinG"), url(../assets/fonts/din1451alt\ G.ttf) format("ttf");
+}
+
+body {
+  margin: 0;
+  font-family: 'Altdin', 'Roboto', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
